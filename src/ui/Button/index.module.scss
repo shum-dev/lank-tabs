@@ -1,0 +1,38 @@
+.button {
+  --background: var(--color-primary);
+  --color: var(--color-white);
+  --hover-background: var(--color-primary-darken);
+  --hover-color: var(--color-white);
+
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--background);
+  color: var(--color);
+  font-size: 0.9rem;
+  transition: 0.3s ease-out;
+  height: 2.25rem;
+  border: 1px solid var(--background);
+  white-space: nowrap;
+  outline: none;
+  border-radius: 0.25rem;
+  padding: 0.4rem 0.8rem;
+
+  &:hover {
+    background-color: var(--hover-background);
+  }
+}
+
+.colorPrimary {
+  --background: var(--color-primary);
+  --color: var(--color-white);
+  --hover-background: var(--color-primary-darken);
+  --hover-color: var(--color-white);
+}
+
+.colorSecondary {
+  --background: var(--color-secondary);
+  --color: var(--color-gray);
+  --hover-background: var(--color-secondary-darken);
+  --hover-color: var(--color-gray);
+}

@@ -1,0 +1,64 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-white: #fff;
+
+  --color-gray: #7b7b7b;
+  --color-gray-b: #aeaeae;
+  --color-gray-c: #f6f7f8;
+  --color-gray-d: #d9d9d9;
+  --color-gray-e: #fafafa;
+  --color-gray-f: rgba(0, 0, 0, 0.65);
+  --color-gray-g: rgb(58 70 93 /5%);
+  --color-gray-j: #00000012;
+
+  --color-blue-a: #40a9ff;
+  --color-blue-b: rgb(24 144 255 / 20%);
+
+  --color-black-a: #20293d;
+
+  --color-red-a: #df3d13;
+  --color-red-b: #f8f2e9;
+
+  --color-primary: #05f;
+  --color-primary-darken: #2031a8;
+
+  --color-secondary: #edeeef;
+  --color-secondary-darken: #e0e0e0;
+}
+
+#root {
+  padding: 4rem;
+  overflow: hidden;
+}
+
+body {
+  background-color: #f7f7f8;
+  margin: 0;
+  display: grid;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

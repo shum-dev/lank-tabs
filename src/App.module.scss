@@ -1,0 +1,16 @@
+.app {
+  box-sizing: border-box;
+  box-shadow: -0.25rem 0.25rem 0.5rem 0 var(--color-gray-g);
+  padding: 1rem 2rem 1.5rem;
+  border-radius: 0.25rem;
+  background-color: var(--color-white);
+  min-width: 320px;
+  max-width: 640px;
+}
+
+.heading {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: normal;
+  margin: 0;
+}
