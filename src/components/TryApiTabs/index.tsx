@@ -189,7 +189,7 @@ export const TryApiTabs = ({ user, phone, pincode, language, text }: Props) => {
 };
 
 TryApiTabs.defaultProps = {
-  user: "0b5a7628bac2cac75c46e7b40d532d6e:9c09d4be",
+  user: "opkm762seqc2cac75c46sdr40d532dfh:xxxxxxxx",
   phone: "+79256607711",
   pincode: "0000",
   language: "en",
