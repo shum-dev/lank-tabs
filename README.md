@@ -3,7 +3,7 @@
 ## Run development server:
 
 ```
-(proj)$ npm install
-(proj)$ npm run dev
+(proj)$ yarn install
+(proj)$ yarn run dev
 
 ```
